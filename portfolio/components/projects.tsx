@@ -86,7 +86,7 @@ const allProjects = [
       "Framer Motion",
     ],
     images: [
-      "/assets/fotos voleibol/Captura de pantalla (83).png",
+      "/assets/fotos voleibol/Captura de pantalla (80).png",
       "/assets/fotos voleibol/Captura de pantalla (66).png",
       "/assets/fotos voleibol/Captura de pantalla (67).png",
       "/assets/fotos voleibol/Captura de pantalla (68).png",
