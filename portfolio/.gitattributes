@@ -1,0 +1,23 @@
+# Forzar TypeScript como lenguaje principal
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+
+# Excluir carpetas generadas de Next.js
+.next/* linguist-vendored
+.next/**/* linguist-vendored
+out/* linguist-vendored
+dist/* linguist-vendored
+node_modules/* linguist-vendored
+
+# Si usas otros archivos de configuración
+next.config.js linguist-generated
+next-env.d.ts linguist-generated
+tailwind.config.js linguist-generated
+postcss.config.js linguist-generated
+
+# Archivos de prueba
+*.test.ts linguist-documentation
+*.spec.ts linguist-documentation
+*.test.tsx linguist-documentation
+*.spec.tsx linguist-documentation
