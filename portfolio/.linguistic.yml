@@ -1,0 +1,4 @@
+# .linguist.yml en la raíz del proyecto
+linguist-detectable: true
+linguist-language: TypeScript
+linguist-documentation: []
