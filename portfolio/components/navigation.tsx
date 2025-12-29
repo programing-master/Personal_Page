@@ -42,12 +42,12 @@ export default function Navigation({ scrolled }: NavigationProps) {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div className="max-w-6xl  mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link
           href="#home"
-          className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+          className="text-2xl flex items-center gap-2 font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
         >
-          Javier.Dev
+         <img width={28} src={"/icon.svg"}/> Javier.Dev
         </Link>
 
         {/* Desktop Menu */}

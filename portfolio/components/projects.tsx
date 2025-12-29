@@ -40,6 +40,7 @@ const allProjects = [
       "/assets/foto licencia_1.png",
       "/assets/foto licencia_2.png",
     ],
+    rol:"Backend - Frontend",
     link: null,
     github: null,
     isOpenSource: false,
@@ -61,6 +62,7 @@ const allProjects = [
       "/assets/foto inmuebles_1.png",
       "/assets/foto inmuebles_2.png",
     ],
+        rol:"Backend",
     link: null,
     github: null,
     isOpenSource: false,
@@ -93,6 +95,8 @@ const allProjects = [
       "/assets/fotos voleibol/Captura de pantalla (78).png",
       "/assets/fotos voleibol/Captura de pantalla (82).png",
     ],
+        rol:"Backend - Frontend",
+
     link: null,
     github: null,
     isOpenSource: false,
@@ -104,20 +108,24 @@ const allProjects = [
     id: 4,
     title: "Todo app",
     description:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Backend-Frontend).",
+      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend).",
     longDescription:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Backend-Frontend). Aplicación full-stack para gestión de tareas con autenticación de usuarios, categorías, prioridades y sistema de notificaciones.",
-    tags: ["Node.js", "MongoDB", "Express", "React.js", "Vite.js","Tailwind", "Mongoose", "Framer Motion"],
-    images: [
-      "/assets/fotos crud/Captura de pantalla (86).png",
-      "/assets/fotos crud/Captura de pantalla (87).png",
-      "/assets/fotos crud/Captura de pantalla (88).png",
-      "/assets/fotos crud/Captura de pantalla (89).png",
-      "/assets/fotos crud/Captura de pantalla (90).png",
-      "/assets/fotos crud/Captura de pantalla (91).png",
+      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend). Aplicación full-stack para gestión de tareas con sistema de notificaciones.",
+    tags: [
+     "Next.js",
+     "Typescript",
+     "Supabase",
+     "Tailwind"
     ],
-    link: null,
-    github: "https://github.com/programing-master/Todo-app",
+    images: [
+      "/assets/fotos crud/Captura de pantalla (100).png",
+      "/assets/fotos crud/Captura de pantalla (99).png",
+     
+    ],  
+        rol:"Frontend",
+
+    link: "https://todo-app-supabase-eta.vercel.app/",
+    github: "https://github.com/programing-master/Todo_app_supabase",
     isOpenSource: true,
     company: "",
     closeSourceInfo: "Sistema de gestion de tareas",
@@ -131,10 +139,9 @@ const allProjects = [
     longDescription:
       "Software personal desarrollado para generar códigos QR Desempeño (Frontend).",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    images: [
-      "/assets/fotos qr/Captura de pantalla (94).png",
-      
-    ],
+    images: ["/assets/fotos qr/Captura de pantalla (94).png"],
+        rol:"Frontend",
+
     link: "https://fox-qr.vercel.app",
     github: "https://github.com/programing-master/QR_Generator",
     isOpenSource: true,
@@ -267,9 +274,10 @@ export default function Projects() {
                 className={`
                   group relative bg-background border border-border rounded-xl overflow-hidden 
                   transition-all duration-500 hover:shadow-xl hover:border-primary/30
-                  ${visibleProjects.includes(project.id)
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-8"
+                  ${
+                    visibleProjects.includes(project.id)
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-8"
                   }
                   flex flex-col h-[520px] md:h-[540px] // Altura fija para todas
                 `}
@@ -329,7 +337,9 @@ export default function Projects() {
                   {/* Company badge */}
                   <div className="absolute top-3 left-3 bg-primary/90 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1">
                     <Building2 size={12} />
-                    <span className="max-w-[120px] truncate">{project.company}</span>
+                    <span className="max-w-[120px] truncate">
+                      {project.company}
+                    </span>
                   </div>
                 </div>
 
@@ -476,7 +486,7 @@ export default function Projects() {
 
       {/* Image Gallery Modal */}
       {imageModalOpen && selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
+        <div className="fixed inset-0 bg-red-400 z-50 flex items-center justify-center">
           <div
             className="absolute inset-0 bg-black/80 backdrop-blur-sm"
             onClick={closeModal}
@@ -486,7 +496,8 @@ export default function Projects() {
               <div>
                 <h3 className="text-xl font-bold">{selectedProject.title}</h3>
                 <p className="text-sm text-foreground/60">
-                  Imagen {currentImageIndex + 1} de {selectedProject.images.length}
+                  Imagen {currentImageIndex + 1} de{" "}
+                  {selectedProject.images.length}
                 </p>
               </div>
               <button
@@ -500,7 +511,9 @@ export default function Projects() {
             <div className="relative h-[60vh] bg-black">
               <Image
                 src={selectedProject.images[currentImageIndex]}
-                alt={`${selectedProject.title} - Imagen ${currentImageIndex + 1}`}
+                alt={`${selectedProject.title} - Imagen ${
+                  currentImageIndex + 1
+                }`}
                 fill
                 className="object-contain"
                 sizes="100vw"
@@ -565,8 +578,8 @@ export default function Projects() {
             className="absolute inset-0 bg-black/80 backdrop-blur-sm"
             onClick={closeModal}
           />
-          
-          <div className="relative z-10 w-full max-w-4xl mx-4 max-h-[90vh] bg-background rounded-xl overflow-hidden shadow-2xl">
+
+          <div className="relative z-10 w-full max-w-4xl mx-4 min-h-[90vh] bg-background rounded-xl overflow-hidden shadow-2xl">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-6 border-b border-border bg-gradient-to-r from-primary/5 to-accent/5">
               <div>
@@ -612,11 +625,14 @@ export default function Projects() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <FileText size={20} className="text-primary" />
-                    <h4 className="text-lg font-semibold">Descripción Completa</h4>
+                    <h4 className="text-lg font-semibold">
+                      Descripción Completa
+                    </h4>
                   </div>
                   <div className="bg-muted/30 rounded-lg p-4">
                     <p className="text-foreground/80 leading-relaxed whitespace-pre-line">
-                      {selectedProject.longDescription || selectedProject.description}
+                      {selectedProject.longDescription ||
+                        selectedProject.description}
                     </p>
                   </div>
                 </div>
@@ -625,7 +641,9 @@ export default function Projects() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <Code size={20} className="text-primary" />
-                    <h4 className="text-lg font-semibold">Tecnologías Utilizadas</h4>
+                    <h4 className="text-lg font-semibold">
+                      Tecnologías Utilizadas
+                    </h4>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {selectedProject.tags.map((tag: string) => (
@@ -647,17 +665,23 @@ export default function Projects() {
                     <div className="flex items-center gap-2">
                       <Building2 size={18} className="text-foreground/60" />
                       <div>
-                        <p className="text-sm font-medium">Empresa/Institución</p>
-                        <p className="text-foreground/80">{selectedProject.company || "Proyecto Personal"}</p>
+                        <p className="text-sm font-medium">
+                          Empresa/Institución
+                        </p>
+                        <p className="text-foreground/80">
+                          {selectedProject.company || "Proyecto Personal"}
+                        </p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center gap-2">
                       {selectedProject.isOpenSource ? (
                         <>
                           <Globe size={18} className="text-green-600" />
                           <div>
-                            <p className="text-sm font-medium">Tipo de Software</p>
+                            <p className="text-sm font-medium">
+                              Tipo de Software
+                            </p>
                             <p className="text-green-600">Open Source</p>
                           </div>
                         </>
@@ -665,7 +689,9 @@ export default function Projects() {
                         <>
                           <Shield size={18} className="text-amber-600" />
                           <div>
-                            <p className="text-sm font-medium">Tipo de Software</p>
+                            <p className="text-sm font-medium">
+                              Tipo de Software
+                            </p>
                             <p className="text-amber-600">Propietario</p>
                           </div>
                         </>
@@ -679,20 +705,20 @@ export default function Projects() {
                       <Users size={18} className="text-foreground/60" />
                       <div>
                         <p className="text-sm font-medium">Desarrollado para</p>
-                        <p className="text-foreground/80">{selectedProject.build}</p>
+                        <p className="text-foreground/80">
+                          {selectedProject.build}
+                        </p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center gap-2">
                       <BarChart3 size={18} className="text-foreground/60" />
                       <div>
-                        <p className="text-sm font-medium">Rol en el proyecto</p>
+                        <p className="text-sm font-medium">
+                          Rol en el proyecto
+                        </p>
                         <p className="text-foreground/80">
-                          {selectedProject.title.includes("Voleibol") || 
-                           selectedProject.title.includes("Generador de licencias") || 
-                           selectedProject.title.includes("Todo app")
-                            ? "Backend & Frontend"
-                            : "Backend"}
+                          {selectedProject.rol}
                         </p>
                       </div>
                     </div>
@@ -718,37 +744,49 @@ export default function Projects() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <Images size={20} className="text-primary" />
-                    <h4 className="text-lg font-semibold">Capturas del Proyecto</h4>
+                    <h4 className="text-lg font-semibold">
+                      Capturas del Proyecto
+                    </h4>
                   </div>
                   <div className="flex gap-2 overflow-x-auto pb-2">
-                    {selectedProject.images.slice(0, 4).map((img: string, idx: number) => (
-                      <button
-                        key={idx}
-                        onClick={() => {
-                          closeModal();
-                          setTimeout(() => openImageGallery(selectedProject, idx), 100);
-                        }}
-                        className="flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden border border-border hover:border-primary transition-all"
-                      >
-                        <Image
-                          src={img}
-                          alt={`Preview ${idx + 1}`}
-                          width={96}
-                          height={96}
-                          className="w-full h-full object-cover"
-                        />
-                      </button>
-                    ))}
+                    {selectedProject.images
+                      .slice(0, 4)
+                      .map((img: string, idx: number) => (
+                        <button
+                          key={idx}
+                          onClick={() => {
+                            closeModal();
+                            setTimeout(
+                              () => openImageGallery(selectedProject, idx),
+                              100
+                            );
+                          }}
+                          className="flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden border border-border hover:border-primary transition-all"
+                        >
+                          <Image
+                            src={img}
+                            alt={`Preview ${idx + 1}`}
+                            width={96}
+                            height={96}
+                            className="w-full h-full object-cover"
+                          />
+                        </button>
+                      ))}
                     {selectedProject.images.length > 4 && (
                       <button
                         onClick={() => {
                           closeModal();
-                          setTimeout(() => openImageGallery(selectedProject, 0), 100);
+                          setTimeout(
+                            () => openImageGallery(selectedProject, 0),
+                            100
+                          );
                         }}
                         className="flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden border border-dashed border-border hover:border-primary transition-all flex items-center justify-center"
                       >
                         <div className="text-center">
-                          <span className="text-2xl">+{selectedProject.images.length - 4}</span>
+                          <span className="text-2xl">
+                            +{selectedProject.images.length - 4}
+                          </span>
                           <p className="text-xs mt-1">Ver más</p>
                         </div>
                       </button>
@@ -760,20 +798,23 @@ export default function Projects() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <ExternalLink size={20} className="text-primary" />
-                    <h4 className="text-lg font-semibold">Enlaces Relacionados</h4>
+                    <h4 className="text-lg font-semibold">
+                      Enlaces Relacionados
+                    </h4>
                   </div>
                   <div className="flex flex-wrap gap-3">
-                    {selectedProject.isOpenSource && isValidLink(selectedProject.github) && (
-                      <a
-                        href={selectedProject.github || "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
-                      >
-                        <Github size={18} />
-                        <span>Ver código en GitHub</span>
-                      </a>
-                    )}
+                    {selectedProject.isOpenSource &&
+                      isValidLink(selectedProject.github) && (
+                        <a
+                          href={selectedProject.github || "#"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+                        >
+                          <Github size={18} />
+                          <span>Ver código en GitHub</span>
+                        </a>
+                      )}
                     {isValidLink(selectedProject.link) && (
                       <a
                         href={selectedProject.link || "#"}
@@ -785,11 +826,14 @@ export default function Projects() {
                         <span>Visitar Proyecto</span>
                       </a>
                     )}
-                    {!selectedProject.isOpenSource && !isValidLink(selectedProject.link) && !isValidLink(selectedProject.github) && (
-                      <div className="text-foreground/70 text-sm">
-                        Este proyecto es de uso interno/propietario y no está disponible públicamente.
-                      </div>
-                    )}
+                    {!selectedProject.isOpenSource &&
+                      !isValidLink(selectedProject.link) &&
+                      !isValidLink(selectedProject.github) && (
+                        <div className="text-foreground/70 text-sm">
+                          Este proyecto es de uso interno/propietario y no está
+                          disponible públicamente.
+                        </div>
+                      )}
                   </div>
                 </div>
               </div>
@@ -800,7 +844,10 @@ export default function Projects() {
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2 text-sm text-foreground/60">
                   <Calendar size={14} />
-                  <span>Proyecto desarrollado en {selectedProject.company ? "empresa" : "tiempo personal"}</span>
+                  <span>
+                    Proyecto desarrollado en{" "}
+                    {selectedProject.company ? "empresa" : "tiempo personal"}
+                  </span>
                 </div>
                 <button
                   onClick={closeModal}
