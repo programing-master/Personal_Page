@@ -149,6 +149,24 @@ const allProjects = [
     closeSourceInfo: "Sistema generador de códigos QR",
     build: "Desarrollado para uso personal",
   },
+   {
+    id: 6,
+    title: "Gnerador contraseñas",
+    description:
+      "Software personal desarrollado para generar contraseñas (Frontend).",
+    longDescription:
+      "Software personal desarrollado para generar contraseñas (Frontend).",
+    tags: ["HTML", "CSS", "Javascript"],
+    images: ["/assets/fotos password/Captura de pantalla (102).png"],
+        rol:"Frontend",
+
+    link: "https://password-generator-rfdg.vercel.app/",
+    github: "https://github.com/programing-master/Password_generator",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema generador de contraseñas",
+    build: "Desarrollado para uso personal",
+  },
 ];
 
 export default function Projects() {

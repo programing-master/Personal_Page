@@ -47,7 +47,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
           href="#home"
           className="text-2xl flex items-center gap-2 font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
         >
-         <img width={28} src={"/icon.svg"}/> Javier.Dev
+          <img width={28} src={"/icon.svg"} /> Javier.Dev
         </Link>
 
         {/* Desktop Menu */}
