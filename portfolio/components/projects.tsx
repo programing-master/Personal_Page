@@ -40,7 +40,7 @@ const allProjects = [
       "/assets/foto licencia_1.png",
       "/assets/foto licencia_2.png",
     ],
-    rol:"Backend - Frontend",
+    rol: "Backend - Frontend",
     link: null,
     github: null,
     isOpenSource: false,
@@ -62,7 +62,7 @@ const allProjects = [
       "/assets/foto inmuebles_1.png",
       "/assets/foto inmuebles_2.png",
     ],
-        rol:"Backend",
+    rol: "Backend",
     link: null,
     github: null,
     isOpenSource: false,
@@ -95,7 +95,7 @@ const allProjects = [
       "/assets/fotos voleibol/Captura de pantalla (78).png",
       "/assets/fotos voleibol/Captura de pantalla (82).png",
     ],
-        rol:"Backend - Frontend",
+    rol: "Backend - Frontend",
 
     link: null,
     github: null,
@@ -111,18 +111,12 @@ const allProjects = [
       "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend).",
     longDescription:
       "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend). Aplicación full-stack para gestión de tareas con sistema de notificaciones.",
-    tags: [
-     "Next.js",
-     "Typescript",
-     "Supabase",
-     "Tailwind"
-    ],
+    tags: ["Next.js", "Typescript", "Supabase", "Tailwind"],
     images: [
       "/assets/fotos crud/Captura de pantalla (100).png",
       "/assets/fotos crud/Captura de pantalla (99).png",
-     
-    ],  
-        rol:"Frontend",
+    ],
+    rol: "Frontend",
 
     link: "https://todo-app-supabase-eta.vercel.app/",
     github: "https://github.com/programing-master/Todo_app_supabase",
@@ -140,7 +134,7 @@ const allProjects = [
       "Software personal desarrollado para generar códigos QR Desempeño (Frontend).",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     images: ["/assets/fotos qr/Captura de pantalla (94).png"],
-        rol:"Frontend",
+    rol: "Frontend",
 
     link: "https://fox-qr.vercel.app",
     github: "https://github.com/programing-master/QR_Generator",
@@ -149,16 +143,16 @@ const allProjects = [
     closeSourceInfo: "Sistema generador de códigos QR",
     build: "Desarrollado para uso personal",
   },
-   {
+  {
     id: 6,
-    title: "Gnerador contraseñas",
+    title: "Generador contraseñas",
     description:
       "Software personal desarrollado para generar contraseñas (Frontend).",
     longDescription:
       "Software personal desarrollado para generar contraseñas (Frontend).",
     tags: ["HTML", "CSS", "Javascript"],
     images: ["/assets/fotos password/Captura de pantalla (102).png"],
-        rol:"Frontend",
+    rol: "Frontend",
 
     link: "https://password-generator-rfdg.vercel.app/",
     github: "https://github.com/programing-master/Password_generator",
@@ -166,6 +160,32 @@ const allProjects = [
     company: "",
     closeSourceInfo: "Sistema generador de contraseñas",
     build: "Desarrollado para uso personal",
+  },
+
+  {
+    id: 7,
+    title: "Tienda E-commerce",
+    description:
+      "Tienda online moderna con carrito de compras y sistema de filtrado (Fullstack).",
+    longDescription:
+      "Tienda e-commerce completa desarrollada con Next.js 16, TypeScript y Tailwind CSS. Incluye sistema de carrito de compras con persistencia de estado, filtrado avanzado de productos, búsqueda en tiempo real y diseño responsive.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Context API"],
+    images: ["/assets/ecommerce/Captura de pantalla (103).png",
+      "/assets/ecommerce/Captura de pantalla (104).png",
+      "/assets/ecommerce/Captura de pantalla (105).png",
+      "/assets/ecommerce/Captura de pantalla (106).png",
+      "/assets/ecommerce/Captura de pantalla (107).png",
+      "/assets/ecommerce/Captura de pantalla (108).png",
+      "/assets/ecommerce/Captura de pantalla (109).png",
+      "/assets/ecommerce/Captura de pantalla (110).png",
+    ],
+    rol: "Frontend",
+    link: "https://ecommerce-proyect-88ol.vercel.app",
+    github: "https://github.com/programing-master/Ecommerce_proyect",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema de tienda online con carrito de compras",
+    build: "Desarrollado como proyecto personal",
   },
 ];
 
