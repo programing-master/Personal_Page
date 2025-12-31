@@ -170,7 +170,8 @@ const allProjects = [
     longDescription:
       "Tienda e-commerce completa desarrollada con Next.js 16, TypeScript y Tailwind CSS. Incluye sistema de carrito de compras con persistencia de estado, filtrado avanzado de productos, búsqueda en tiempo real y diseño responsive.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Context API"],
-    images: ["/assets/ecommerce/Captura de pantalla (103).png",
+    images: [
+      "/assets/ecommerce/Captura de pantalla (103).png",
       "/assets/ecommerce/Captura de pantalla (104).png",
       "/assets/ecommerce/Captura de pantalla (105).png",
       "/assets/ecommerce/Captura de pantalla (106).png",
