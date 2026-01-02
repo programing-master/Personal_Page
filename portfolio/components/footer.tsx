@@ -66,6 +66,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="#education"
+                  className="hover:text-primary transition-colors"
+                >
+                  Educación
+                </a>
+              </li>
+              <li>
+                <a
                   href="#experience"
                   className="hover:text-primary transition-colors"
                 >

@@ -17,6 +17,8 @@ export default function Navigation({ scrolled }: NavigationProps) {
     { label: "Experiencia", href: "#experience" },
     { label: "Habilidades", href: "#skills" },
     { label: "Contacto", href: "#contact" },
+        { label: "Educación", href: "#education" },
+
   ];
 
   const downloadCV = () => {
