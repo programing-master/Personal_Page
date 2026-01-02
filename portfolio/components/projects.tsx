@@ -211,6 +211,29 @@ const allProjects = [
     closeSourceInfo: "Sistema de recetas de cocina",
     build: "Desarrollado como proyecto personal",
   },
+  {
+    id: 9,
+    title: " Gradient Generator ",
+    description:
+      "Aplicación web para crear, personalizar y exportar gradientes de colores .",
+    longDescription:
+      "Aplicación web para crear, personalizar y exportar gradientes de colores en estilo CSS, tanto para gradientes lineales como gradientes radiales. ",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    images: [
+      "/assets/gradient/Captura de pantalla (115).png",
+      "/assets/gradient/Captura de pantalla (116).png",
+      "/assets/gradient/Captura de pantalla (117).png",
+      "/assets/gradient/Captura de pantalla (118).png",
+     
+    ],
+    rol: "Frontend",
+    link: "https://gradient-generator-eight-psi.vercel.app",
+    github: "https://github.com/programing-master/Gradient_generator",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema generador de gradientes",
+    build: "Desarrollado como proyecto personal",
+  },
 ];
 
 export default function Projects() {
