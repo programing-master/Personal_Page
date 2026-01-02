@@ -166,7 +166,7 @@ const allProjects = [
     id: 7,
     title: "Tienda E-commerce",
     description:
-      "Tienda online moderna con carrito de compras y sistema de filtrado (Fullstack).",
+      "Tienda online moderna con carrito de compras y sistema de filtrado .",
     longDescription:
       "Tienda e-commerce completa desarrollada con Next.js 16, TypeScript y Tailwind CSS. Incluye sistema de carrito de compras con persistencia de estado, filtrado avanzado de productos, búsqueda en tiempo real y diseño responsive.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Context API"],
@@ -186,6 +186,29 @@ const allProjects = [
     isOpenSource: true,
     company: "",
     closeSourceInfo: "Sistema de tienda online con carrito de compras",
+    build: "Desarrollado como proyecto personal",
+  },
+  {
+    id: 8,
+    title: " RecipeMaster ",
+    description:
+      "App de Recetas RecipeMaster es una aplicación web moderna.",
+    longDescription:
+      "App de Recetas RecipeMaster es una aplicación web moderna y responsiva para descubrir, buscar y guardar recetas de cocina de todo el mundo. Construida con las tecnologías más actuales del ecosistema React.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    images: [
+      "/assets/recipes/Captura de pantalla (111).png",
+      "/assets/recipes/Captura de pantalla (112).png",
+      "/assets/recipes/Captura de pantalla (113).png",
+      "/assets/recipes/Captura de pantalla (114).png",
+     
+    ],
+    rol: "Frontend",
+    link: "https://recipes-app-xi-gray.vercel.app",
+    github: "https://github.com/programing-master/Recipes_app",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema de recetas de cocina",
     build: "Desarrollado como proyecto personal",
   },
 ];
