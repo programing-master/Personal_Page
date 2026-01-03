@@ -27,8 +27,6 @@ import {
 import Image from "next/image";
 import { allProjects } from "@/constants/projects";
 
-
-
 export default function Projects() {
   const [visibleProjects, setVisibleProjects] = useState<number[]>([]);
   const [loadedProjects, setLoadedProjects] = useState(3);

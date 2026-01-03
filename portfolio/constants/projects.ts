@@ -163,8 +163,7 @@ export const allProjects = [
   {
     id: 8,
     title: " RecipeMaster ",
-    description:
-      "App de Recetas RecipeMaster es una aplicación web moderna.",
+    description: "App de Recetas RecipeMaster es una aplicación web moderna.",
     longDescription:
       "App de Recetas RecipeMaster es una aplicación web moderna y responsiva para descubrir, buscar y guardar recetas de cocina de todo el mundo. Construida con las tecnologías más actuales del ecosistema React.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -173,7 +172,6 @@ export const allProjects = [
       "/assets/recipes/Captura de pantalla (112).png",
       "/assets/recipes/Captura de pantalla (113).png",
       "/assets/recipes/Captura de pantalla (114).png",
-     
     ],
     rol: "Frontend",
     link: "https://recipes-app-xi-gray.vercel.app",
@@ -196,7 +194,6 @@ export const allProjects = [
       "/assets/gradient/Captura de pantalla (116).png",
       "/assets/gradient/Captura de pantalla (117).png",
       "/assets/gradient/Captura de pantalla (118).png",
-     
     ],
     rol: "Frontend",
     link: "https://gradient-generator-eight-psi.vercel.app",
@@ -204,6 +201,27 @@ export const allProjects = [
     isOpenSource: true,
     company: "",
     closeSourceInfo: "Sistema generador de gradientes",
+    build: "Desarrollado como proyecto personal",
+  },
+  {
+    id: 10,
+    title: " Tic Tac Toe",
+    description:
+      "Tic-Tac-Toe (Tres en Raya) Un juego clásico  desarrollado con HTML, CSS y JavaScript",
+    longDescription:
+      "Tic-Tac-Toe (Tres en Raya) Un juego clásico  desarrollado con HTML, CSS y JavaScript. ",
+    tags: ["HTML", "CSS", "Javascript"],
+    images: [
+      "/assets/tic_tac_toe/Captura de pantalla (123).png",
+      "/assets/tic_tac_toe/capture.png",
+      "/assets/tic_tac_toe/Captura de pantalla (124).png",
+    ],
+    rol: "Frontend",
+    link: "https://tic-tac-toe-omega-khaki.vercel.app/",
+    github: "https://github.com/programing-master/Tic_Tac_Toe",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Tic-Tac-Toe (Tres en Raya)",
     build: "Desarrollado como proyecto personal",
   },
 ];
