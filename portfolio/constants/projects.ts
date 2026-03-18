@@ -3,9 +3,9 @@ export const allProjects = [
     id: 1,
     title: "Generador de licencias",
     description:
-      "Aplicación que genera licencias para los software de la empresa NovaXaaS mantiene gestiones de clientes y productos digitales Desempeño (Backend-Frontend).",
+      "La aplicación encargada de generar las licencias de los productos de la empresa NovaXaaS mantiene gestiones de clientes y productos digitales Desempeño (Backend-Frontend).",
     longDescription:
-      "Aplicación que genera licencias para los software de la empresa NovaXaaS mantiene gestiones de clientes y productos digitales Desempeño (Backend-Frontend). Sistema completo para gestión de licencias de software con sistema de facturación integrado, generación automática de claves, y panel de administración para control de clientes y productos.",
+      "La aplicación encargada de generar las licencias de los productos de la empresa NovaXaaS mantiene gestiones de clientes y productos digitales Desempeño (Backend-Frontend). Sistema completo para gestión de licencias de software con sistema de facturación integrado, generación automática de claves, y panel de administración para control de clientes y productos.",
     tags: ["Django", "PostgreSQL", "Jazzmine", "JavaScript", "HTML", "CSS"],
     images: [
       "/assets/foto licencias.png",
@@ -25,22 +25,53 @@ export const allProjects = [
     id: 2,
     title: "Proyecto Inmuebles",
     description:
-      "Software que desarrollé en la empresa NovaXaaS para la gestión de contratos y pagos como otras entidades del negocio para empresas de inmobiliaria Desempeño (Backend).",
+      "Software que desarrollé en la empresa NovaXaaS para la gestión de contratos y pagos como otras entidades del negocio para empresas de inmobiliaria Desempeño (Backend - Frontend).",
     longDescription:
-      "Software que desarrollé en la empresa NovaXaaS para la gestión de contratos y pagos como otras entidades del negocio para empresas de inmobiliaria Desempeño (Backend). Sistema completo de gestión inmobiliaria con módulos para propiedades, contratos, pagos, clientes y reportes financieros.",
-    tags: ["Node.js", "MongoDB", "Express", "Mongoose"],
+      "Software que desarrollé en la empresa NovaXaaS para la gestión de contratos y pagos como otras entidades del negocio para empresas de inmobiliaria Desempeño (Backend - Frontend). Sistema completo de gestión inmobiliaria con módulos para propiedades, contratos, pagos, clientes y reportes financieros. En el proceso se vio concebido reuniones con el cliente y posteriormente impartir curso de capacitación respecto al mismo",
+    tags: [
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Mongoose",
+      "React.js",
+      "Typescript",
+      "Tailwindcss",
+      "Vite",
+    ],
     images: [
       "/assets/foto inmuebles.png",
       "/assets/foto inmuebles_1.png",
       "/assets/foto inmuebles_2.png",
     ],
-    rol: "Backend",
+    rol: "Backend - Frontend",
     link: null,
     github: null,
     isOpenSource: false,
     company: "NovaXaaS",
     closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
     build: "Desarrollado para comercialización por parte de la empresa",
+  },
+  {
+    id: 22,
+    title: "Git Clone Master",
+    description:
+      "Hace algún tiempo, mientras trabajaba en la empresa a la que pertenecía, mi compañero de equipo y yo constantemente enfrentábamos desafíos al clonar repositorios y sincronizar ramas remotas con sus correspondientes ramas locales. Git clone master permite clonar cualquier repositorio crear las ramas locales y sincronizarlas con sus ramas remotas correspondientes de un solo paso",
+
+    longDescription:
+      'Hace algún tiempo, mientras trabajaba en la empresa a la que pertenecía, mi compañero de equipo y yo constantemente enfrentábamos desafíos al clonar repositorios y sincronizar ramas remotas con sus correspondientes ramas locales. Como alguien a quien siempre le han gustado las herramientas de línea de comandos y la automatización, no pude soportar esta ineficiencia por más tiempo. Pensé: "¡Tiene que haber una mejor manera! de esa forma nació Git clone master. permite clonar cualquier repositorio crear las ramas locales y sincronizarlas con sus ramas remotas correspondientes de un solo paso ,en otras palabras podras tener todos los cambios de un repo remoto en el repositorio local, entra el repo y descarga la herramienta  ',
+    tags: ["SH"],
+    images: [
+      "/assets/git_clone/Captura de pantalla (144).png",
+      "/assets/git_clone/Captura de pantalla (145).png",
+      "/assets/git_clone/Captura de pantalla (146).png",
+    ],
+    rol: "",
+    link: null,
+    github: "https://github.com/programing-master/Git-Clone-Master",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
+    build: "Desarrollado para uso personal",
   },
   {
     id: 3,
@@ -140,7 +171,7 @@ export const allProjects = [
     description:
       "Tienda online moderna con carrito de compras y sistema de filtrado .",
     longDescription:
-      "Tienda e-commerce completa desarrollada con Next.js 16, TypeScript y Tailwind CSS. Incluye sistema de carrito de compras con persistencia de estado, filtrado avanzado de productos, búsqueda en tiempo real y diseño responsive.",
+      "Tienda e-commerce desarrollada con Next.js 16, TypeScript y Tailwind CSS. Incluye sistema de carrito de compras con persistencia de estado, filtrado avanzado de productos, búsqueda en tiempo real y diseño responsive.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Context API"],
     images: [
       "/assets/ecommerce/Captura de pantalla (103).png",
@@ -165,7 +196,7 @@ export const allProjects = [
     title: " RecipeMaster ",
     description: "App de Recetas RecipeMaster es una aplicación web moderna.",
     longDescription:
-      "App de Recetas RecipeMaster es una aplicación web moderna y responsiva para descubrir, buscar y guardar recetas de cocina de todo el mundo. Construida con las tecnologías más actuales del ecosistema React.",
+      "App de Recetas RecipeMaster es una aplicación web moderna y responsiva para descubrir, buscar recetas de cocina de todo el mundo. Construida con las tecnologías más actuales del ecosistema React.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     images: [
       "/assets/recipes/Captura de pantalla (111).png",
