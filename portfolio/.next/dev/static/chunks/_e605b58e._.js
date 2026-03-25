@@ -528,6 +528,36 @@ const allProjects = [
         build: "Desarrollado para comercialización por parte de la empresa"
     },
     {
+        id: 27,
+        title: "Sistema de Gestión de Punto de Venta (POS) – Inventario, Ventas y Analytics",
+        description: "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+        longDescription: "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+        tags: [
+            "Typescript",
+            "Next.js",
+            "ShadCn",
+            "Tailwindcss"
+        ],
+        images: [
+            "/assets/point_sale/Captura de pantalla (165).png",
+            "/assets/point_sale/Captura de pantalla (166).png",
+            "/assets/point_sale/Captura de pantalla (167).png",
+            "/assets/point_sale/Captura de pantalla (168).png",
+            "/assets/point_sale/Captura de pantalla (169).png",
+            "/assets/point_sale/Captura de pantalla (170).png",
+            "/assets/point_sale/Captura de pantalla (171).png",
+            "/assets/point_sale/Captura de pantalla (172).png",
+            "/assets/point_sale/Captura de pantalla (173).png"
+        ],
+        rol: "Backend - Frontend",
+        link: null,
+        github: "https://github.com/programing-master/Point-sale",
+        isOpenSource: true,
+        company: "",
+        closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
+        build: "Desarrollado para comercialización por parte de la empresa"
+    },
+    {
         id: 22,
         title: "Git Clone Master",
         description: "Hace algún tiempo, mientras trabajaba en la empresa a la que pertenecía, mi compañero de equipo y yo constantemente enfrentábamos desafíos al clonar repositorios y sincronizar ramas remotas con sus correspondientes ramas locales. Git clone master permite clonar cualquier repositorio crear las ramas locales y sincronizarlas con sus ramas remotas correspondientes de un solo paso",
@@ -545,7 +575,7 @@ const allProjects = [
         github: "https://github.com/programing-master/Git-Clone-Master",
         isOpenSource: true,
         company: "",
-        closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
+        closeSourceInfo: "Sistema de Gestión de Punto de Venta (POS)",
         build: "Desarrollado para uso personal"
     },
     {
