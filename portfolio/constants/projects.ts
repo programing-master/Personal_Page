@@ -135,27 +135,7 @@ export const allProjects = [
     closeSourceInfo: "Sistema de gestión de entrenamientos de voleibol",
     build: "Desarrollado para uso de la universidad",
   },
-  {
-    id: 4,
-    title: "Todo app",
-    description:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend).",
-    longDescription:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend). Aplicación full-stack para gestión de tareas con sistema de notificaciones.",
-    tags: ["Next.js", "Typescript", "Supabase", "Tailwind"],
-    images: [
-      "/assets/fotos crud/Captura de pantalla (100).png",
-      "/assets/fotos crud/Captura de pantalla (99).png",
-    ],
-    rol: "Frontend",
-
-    link: "https://todo-app-supabase-eta.vercel.app/",
-    github: "https://github.com/programing-master/Todo_app_supabase",
-    isOpenSource: true,
-    company: "",
-    closeSourceInfo: "Sistema de gestion de tareas",
-    build: "Desarrollado para uso personal",
-  },
+ 
   {
     id: 5,
     title: "Gnerador de códigos QR",
@@ -282,5 +262,26 @@ export const allProjects = [
     company: "",
     closeSourceInfo: "Tic-Tac-Toe (Tres en Raya)",
     build: "Desarrollado como proyecto personal",
+  },
+   {
+    id: 4,
+    title: "Todo app",
+    description:
+      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend).",
+    longDescription:
+      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend). Aplicación full-stack para gestión de tareas con sistema de notificaciones.",
+    tags: ["Next.js", "Typescript", "Supabase", "Tailwind"],
+    images: [
+      "/assets/fotos crud/Captura de pantalla (100).png",
+      "/assets/fotos crud/Captura de pantalla (99).png",
+    ],
+    rol: "Frontend",
+
+    link: "https://todo-app-supabase-eta.vercel.app/",
+    github: "https://github.com/programing-master/Todo_app_supabase",
+    isOpenSource: true,
+    company: "",
+    closeSourceInfo: "Sistema de gestion de tareas",
+    build: "Desarrollado para uso personal",
   },
 ];
