@@ -1,5 +1,29 @@
 export const allProjects = [
   {
+    id: 123,
+    title: "Eprog Tv",
+    description:
+      "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).",
+
+    longDescription:
+      "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).El frontend está construido con React, consumiendo la API REST del backend para ofrecer una interfaz moderna y responsive.La plataforma permite gestionar tanto los canales como la parrilla de programación (eventos, horarios, duraciones, homologaciones), facilitando la actualización masiva de la información que se distribuye a los decodificadores en producción Mi tarea principal consistió en migrar la aplicación existente (originalmente desarrollada con Node.js <10) a la versión 22, asegurando compatibilidad, mejorando el rendimiento y modernizando las dependencias. Además, el sistema consume una APK que se encarga de sincronizar la programación actualizada con los decodificadores en campo, completando así el flujo de extremo a extremo. url (FRONTEND) http://eprog.tvcdigital.cu/ ",
+
+    tags: ["Node.js", "PostgreSQL", "MongoDB", "JavaScript", "TypeScript", "React.js","TailwindCSS","Express"],
+    images: [
+      "/assets/icrt/Captura de pantalla (186).png",
+      "/assets/icrt/Captura de pantalla (187).png",
+      "/assets/icrt/Captura de pantalla (188).png",
+    ],
+    rol: "Backend - Frontend",
+    link: "http://eprog2.tvcdigital.cu/",
+    github: null,
+    isOpenSource: false,
+    company: "NovaXaaS",
+    closeSourceInfo:
+      "Sistema de Gestión y Actualización de Decodificadores de TV – ICRT",
+    build: "Desarrollado para uso del ICRT",
+  },
+  {
     id: 1,
     title: "Generador de licencias",
     description:
@@ -21,6 +45,7 @@ export const allProjects = [
       "Software propietario desarrollado para gestión interna de licencias",
     build: "Desarrollado para uso interno de la empresa",
   },
+
   {
     id: 2,
     title: "Proyecto Inmuebles",
@@ -135,7 +160,7 @@ export const allProjects = [
     closeSourceInfo: "Sistema de gestión de entrenamientos de voleibol",
     build: "Desarrollado para uso de la universidad",
   },
- 
+
   {
     id: 5,
     title: "Gnerador de códigos QR",
@@ -262,26 +287,5 @@ export const allProjects = [
     company: "",
     closeSourceInfo: "Tic-Tac-Toe (Tres en Raya)",
     build: "Desarrollado como proyecto personal",
-  },
-   {
-    id: 4,
-    title: "Todo app",
-    description:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend).",
-    longDescription:
-      "Software personal desarrollado para manejar las tareas por hacer Desempeño (Frontend). Aplicación full-stack para gestión de tareas con sistema de notificaciones.",
-    tags: ["Next.js", "Typescript", "Supabase", "Tailwind"],
-    images: [
-      "/assets/fotos crud/Captura de pantalla (100).png",
-      "/assets/fotos crud/Captura de pantalla (99).png",
-    ],
-    rol: "Frontend",
-
-    link: "https://todo-app-supabase-eta.vercel.app/",
-    github: "https://github.com/programing-master/Todo_app_supabase",
-    isOpenSource: true,
-    company: "",
-    closeSourceInfo: "Sistema de gestion de tareas",
-    build: "Desarrollado para uso personal",
   },
 ];
