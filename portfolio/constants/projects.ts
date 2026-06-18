@@ -57,11 +57,12 @@ export const allProjects = [
     title:
       "Sistema de Gestión de Punto de Venta (POS) – Inventario, Ventas y Analytics",
     description:
-      "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+      "El proyecto consiste en una aplicación web full-stack desarrollada con React, utilizando TypeScript para tipado estático, TailwindCSS para estilización con Node ,y Express para el servidor y Mongodb como base de datos. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
     longDescription:
-      "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
-    tags: ["Typescript", "Next.js", "ShadCn", "Tailwindcss"],
+      "El proyecto consiste en una aplicación web full-stack desarrollada con React, utilizando TypeScript para tipado estático, TailwindCSS para estilización con Node ,y Express para el servidor y Mongodb como base de datos. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+    tags: ["Typescript", "React", "Node", "Tailwindcss","Javascript","Express","MongoDB"],
     images: [
+       "/assets/point_sale/Captura de pantalla (198).png",
       "/assets/point_sale/Captura de pantalla (191).png",
       "/assets/point_sale/Captura de pantalla (192).png",
       "/assets/point_sale/Captura de pantalla (193).png",
@@ -69,7 +70,7 @@ export const allProjects = [
       "/assets/point_sale/Captura de pantalla (195).png",
       "/assets/point_sale/Captura de pantalla (196).png",
       "/assets/point_sale/Captura de pantalla (197).png",
-      "/assets/point_sale/Captura de pantalla (198).png",
+     
       "/assets/point_sale/Captura de pantalla (199).png",
       "/assets/point_sale/Captura de pantalla (200).png",
       "/assets/point_sale/Captura de pantalla (201).png",
@@ -84,11 +85,11 @@ export const allProjects = [
     ],
     rol: "Backend - Frontend",
     link: null,
-    github: "https://github.com/programing-master/Point-sale",
+    github: "https://github.com/programing-master/POS_node_mongodb_reactjs",
     isOpenSource: true,
     company: "",
-    closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
-    build: "Desarrollado para comercialización por parte de la empresa",
+    closeSourceInfo: "POS ",
+    build: "Desarrollado para uso comercial",
   },
   {
     id: 22,

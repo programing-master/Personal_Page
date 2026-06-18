@@ -474,34 +474,6 @@ __turbopack_context__.s([
 ]);
 const allProjects = [
     {
-        id: 123,
-        title: "Eprog Tv",
-        description: "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).",
-        longDescription: "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).El frontend está construido con React, consumiendo la API REST del backend para ofrecer una interfaz moderna y responsive.La plataforma permite gestionar tanto los canales como la parrilla de programación (eventos, horarios, duraciones, homologaciones), facilitando la actualización masiva de la información que se distribuye a los decodificadores en producción Mi tarea principal consistió en migrar la aplicación existente (originalmente desarrollada con Node.js <10) a la versión 22, asegurando compatibilidad, mejorando el rendimiento y modernizando las dependencias. Además, el sistema consume una APK que se encarga de sincronizar la programación actualizada con los decodificadores en campo, completando así el flujo de extremo a extremo. url (FRONTEND) http://eprog.tvcdigital.cu/ ",
-        tags: [
-            "Node.js",
-            "PostgreSQL",
-            "MongoDB",
-            "JavaScript",
-            "TypeScript",
-            "React.js",
-            "TailwindCSS",
-            "Express"
-        ],
-        images: [
-            "/assets/icrt/Captura de pantalla (186).png",
-            "/assets/icrt/Captura de pantalla (187).png",
-            "/assets/icrt/Captura de pantalla (188).png"
-        ],
-        rol: "Backend - Frontend",
-        link: "http://eprog2.tvcdigital.cu/",
-        github: null,
-        isOpenSource: false,
-        company: "NovaXaaS",
-        closeSourceInfo: "Sistema de Gestión y Actualización de Decodificadores de TV – ICRT",
-        build: "Desarrollado para uso del ICRT"
-    },
-    {
         id: 1,
         title: "Generador de licencias",
         description: "La aplicación encargada de generar las licencias de los productos de la empresa NovaXaaS mantiene gestiones de clientes y productos digitales Desempeño (Backend-Frontend).",
@@ -558,32 +530,45 @@ const allProjects = [
     {
         id: 27,
         title: "Sistema de Gestión de Punto de Venta (POS) – Inventario, Ventas y Analytics",
-        description: "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
-        longDescription: "El proyecto consiste en una aplicación web full-stack desarrollada con Next.js 16, utilizando TypeScript para tipado estático, TailwindCSS para estilización y shadcn/ui como sistema de componentes accesibles y altamente personalizables. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+        description: "El proyecto consiste en una aplicación web full-stack desarrollada con React, utilizando TypeScript para tipado estático, TailwindCSS para estilización con Node ,y Express para el servidor y Mongodb como base de datos. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
+        longDescription: "El proyecto consiste en una aplicación web full-stack desarrollada con React, utilizando TypeScript para tipado estático, TailwindCSS para estilización con Node ,y Express para el servidor y Mongodb como base de datos. La arquitectura está orientada a brindar una experiencia de usuario fluida, eficiente y con alto rendimiento. Desempeño (Backend - Frontend).",
         tags: [
             "Typescript",
-            "Next.js",
-            "ShadCn",
-            "Tailwindcss"
+            "React",
+            "Node",
+            "Tailwindcss",
+            "Javascript",
+            "Express",
+            "MongoDB"
         ],
         images: [
-            "/assets/point_sale/Captura de pantalla (165).png",
-            "/assets/point_sale/Captura de pantalla (166).png",
-            "/assets/point_sale/Captura de pantalla (167).png",
-            "/assets/point_sale/Captura de pantalla (168).png",
-            "/assets/point_sale/Captura de pantalla (169).png",
-            "/assets/point_sale/Captura de pantalla (170).png",
-            "/assets/point_sale/Captura de pantalla (171).png",
-            "/assets/point_sale/Captura de pantalla (172).png",
-            "/assets/point_sale/Captura de pantalla (173).png"
+            "/assets/point_sale/Captura de pantalla (198).png",
+            "/assets/point_sale/Captura de pantalla (191).png",
+            "/assets/point_sale/Captura de pantalla (192).png",
+            "/assets/point_sale/Captura de pantalla (193).png",
+            "/assets/point_sale/Captura de pantalla (194).png",
+            "/assets/point_sale/Captura de pantalla (195).png",
+            "/assets/point_sale/Captura de pantalla (196).png",
+            "/assets/point_sale/Captura de pantalla (197).png",
+            "/assets/point_sale/Captura de pantalla (199).png",
+            "/assets/point_sale/Captura de pantalla (200).png",
+            "/assets/point_sale/Captura de pantalla (201).png",
+            "/assets/point_sale/Captura de pantalla (202).png",
+            "/assets/point_sale/Captura de pantalla (203).png",
+            "/assets/point_sale/Captura de pantalla (204).png",
+            "/assets/point_sale/Captura de pantalla (205).png",
+            "/assets/point_sale/Captura de pantalla (206).png",
+            "/assets/point_sale/Captura de pantalla (207).png",
+            "/assets/point_sale/Captura de pantalla (208).png",
+            "/assets/point_sale/Captura de pantalla (209).png"
         ],
         rol: "Backend - Frontend",
         link: null,
-        github: "https://github.com/programing-master/Point-sale",
+        github: "https://github.com/programing-master/POS_node_mongodb_reactjs",
         isOpenSource: true,
         company: "",
-        closeSourceInfo: "Sistema empresarial de gestión inmobiliaria",
-        build: "Desarrollado para comercialización por parte de la empresa"
+        closeSourceInfo: "POS ",
+        build: "Desarrollado para uso comercial"
     },
     {
         id: 22,
@@ -605,37 +590,6 @@ const allProjects = [
         company: "",
         closeSourceInfo: "Sistema de Gestión de Punto de Venta (POS)",
         build: "Desarrollado para uso personal"
-    },
-    {
-        id: 3,
-        title: "Proyecto Voleibol",
-        description: "Software desarrollado para la culminación de mis estudios de la universidad en la carrera Ingeniería informática ,aplicación que gestiona desde jugadores ciclos de entrenamientos ,entrenamientos y a su vez permite también tomar datos en tiempo real jugadas a las diferentes áreas del campo de voleibol y sacar al final las estadísticas y reportes en archivos para el posterior análisis Desempeño (Backend-Frontend).",
-        longDescription: "Software desarrollado para la culminación de mis estudios de la universidad en la carrera Ingeniería informática ,aplicación que gestiona desde jugadores ciclos de entrenamientos ,entrenamientos y a su vez permite también tomar datos en tiempo real jugadas a las diferentes áreas del campo de voleibol y sacar al final las estadísticas y reportes en archivos para el posterior análisis Desempeño (Backend-Frontend). Sistema integral para análisis deportivo con toma de datos en tiempo real, estadísticas avanzadas y generación de reportes.",
-        tags: [
-            "Node.js",
-            "MongoDB",
-            "Express",
-            "React.js",
-            "MUI",
-            "Tailwind",
-            "Mongoose",
-            "Framer Motion"
-        ],
-        images: [
-            "/assets/fotos voleibol/Captura de pantalla (80).png",
-            "/assets/fotos voleibol/Captura de pantalla (66).png",
-            "/assets/fotos voleibol/Captura de pantalla (67).png",
-            "/assets/fotos voleibol/Captura de pantalla (68).png",
-            "/assets/fotos voleibol/Captura de pantalla (78).png",
-            "/assets/fotos voleibol/Captura de pantalla (82).png"
-        ],
-        rol: "Backend - Frontend",
-        link: null,
-        github: null,
-        isOpenSource: false,
-        company: "Universidad de Pinar del RÍo (UPR)",
-        closeSourceInfo: "Sistema de gestión de entrenamientos de voleibol",
-        build: "Desarrollado para uso de la universidad"
     },
     {
         id: 5,
