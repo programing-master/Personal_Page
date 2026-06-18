@@ -1,28 +1,5 @@
 export const allProjects = [
-  {
-    id: 123,
-    title: "Eprog Tv",
-    description:
-      "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).",
-
-    longDescription:
-      "Aplicación web full-stack desarrollada con Node.js + Express (migrada desde versiones anteriores a Node.js 22) y MongoDB para la administración integral de las cajas decodificadoras del Instituto Cubano de Radio y Televisión (ICRT).El frontend está construido con React, consumiendo la API REST del backend para ofrecer una interfaz moderna y responsive.La plataforma permite gestionar tanto los canales como la parrilla de programación (eventos, horarios, duraciones, homologaciones), facilitando la actualización masiva de la información que se distribuye a los decodificadores en producción Mi tarea principal consistió en migrar la aplicación existente (originalmente desarrollada con Node.js <10) a la versión 22, asegurando compatibilidad, mejorando el rendimiento y modernizando las dependencias. Además, el sistema consume una APK que se encarga de sincronizar la programación actualizada con los decodificadores en campo, completando así el flujo de extremo a extremo. url (FRONTEND) http://eprog.tvcdigital.cu/ ",
-
-    tags: ["Node.js", "PostgreSQL", "MongoDB", "JavaScript", "TypeScript", "React.js","TailwindCSS","Express"],
-    images: [
-      "/assets/icrt/Captura de pantalla (186).png",
-      "/assets/icrt/Captura de pantalla (187).png",
-      "/assets/icrt/Captura de pantalla (188).png",
-    ],
-    rol: "Backend - Frontend",
-    link: "http://eprog2.tvcdigital.cu/",
-    github: null,
-    isOpenSource: false,
-    company: "NovaXaaS",
-    closeSourceInfo:
-      "Sistema de Gestión y Actualización de Decodificadores de TV – ICRT",
-    build: "Desarrollado para uso del ICRT",
-  },
+  
   {
     id: 1,
     title: "Generador de licencias",
